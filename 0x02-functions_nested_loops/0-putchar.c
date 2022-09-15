@@ -1,21 +1,18 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main-program that prints -putchar
- * returns:always 0
- */
+ * *main - entry point
+ * *Return: 0 (Success)
+ * */
 int main(void)
 {
-	putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-return(0);
+	int i = 0;
+	char text[] = "_putchar";
+
+	while (text[i] != '\0')
+	{
+char(text[i]);
+		i++;
+	}
+	
+	return (0);
 }
-
-
